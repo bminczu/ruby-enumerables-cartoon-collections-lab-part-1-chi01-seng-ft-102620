@@ -6,6 +6,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  hash=Hash.new
   array.each_with_index {|name,index|}
   do array[name]= index +1
   }
