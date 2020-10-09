@@ -8,7 +8,7 @@ end
 def list_dwarves(array)
   hash=Hash.new
   array.each_with_index {|name,index|}
-  do array[name]= index +1
+  do hash[name]= index +1
   }
 end # Use `each_with_index` to enumerate over the provided array
   array
