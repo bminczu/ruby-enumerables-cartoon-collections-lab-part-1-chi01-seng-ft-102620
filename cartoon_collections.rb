@@ -10,6 +10,6 @@ def list_dwarves(array)
   index >1
   puts "#{index} #{name}"
 end # Use `each_with_index` to enumerate over the provided array
-  array
+
   # Print a numbered list of each element
 end
